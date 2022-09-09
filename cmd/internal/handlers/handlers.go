@@ -3,9 +3,9 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/aemzayn/bookings/pkg/config"
-	"github.com/aemzayn/bookings/pkg/models"
-	"github.com/aemzayn/bookings/pkg/render"
+	"github.com/aemzayn/bookings/cmd/internal/config"
+	"github.com/aemzayn/bookings/cmd/internal/models"
+	"github.com/aemzayn/bookings/cmd/internal/render"
 	"log"
 	"net/http"
 )

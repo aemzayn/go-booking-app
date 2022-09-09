@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/aemzayn/bookings/pkg/config"
-	"github.com/aemzayn/bookings/pkg/handlers"
-	"github.com/aemzayn/bookings/pkg/render"
+	"github.com/aemzayn/bookings/cmd/internal/config"
+	"github.com/aemzayn/bookings/cmd/internal/handlers"
+	"github.com/aemzayn/bookings/cmd/internal/render"
 	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"

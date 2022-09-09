@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/aemzayn/bookings/pkg/config"
-	"github.com/aemzayn/bookings/pkg/handlers"
+	"github.com/aemzayn/bookings/cmd/internal/config"
+	"github.com/aemzayn/bookings/cmd/internal/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"net/http"
