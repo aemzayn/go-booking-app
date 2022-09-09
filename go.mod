@@ -1,4 +1,4 @@
-module bookings-udemy
+module github.com/aemzayn/bookings
 
 go 1.15
 

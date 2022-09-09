@@ -1,10 +1,10 @@
 package render
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/models"
 	"bytes"
 	"fmt"
+	"github.com/aemzayn/bookings/pkg/config"
+	"github.com/aemzayn/bookings/pkg/models"
 	"html/template"
 	"log"
 	"net/http"

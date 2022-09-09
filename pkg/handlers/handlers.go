@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/models"
-	"bookings-udemy/pkg/render"
+	"github.com/aemzayn/bookings/pkg/config"
+	"github.com/aemzayn/bookings/pkg/models"
+	"github.com/aemzayn/bookings/pkg/render"
 	"net/http"
 )
 

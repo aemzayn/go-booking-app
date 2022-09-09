@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/handlers"
+	"github.com/aemzayn/bookings/pkg/config"
+	"github.com/aemzayn/bookings/pkg/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"net/http"

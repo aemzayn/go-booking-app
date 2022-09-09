@@ -1,10 +1,10 @@
 package main
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/handlers"
-	"bookings-udemy/pkg/render"
 	"fmt"
+	"github.com/aemzayn/bookings/pkg/config"
+	"github.com/aemzayn/bookings/pkg/handlers"
+	"github.com/aemzayn/bookings/pkg/render"
 	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"
