@@ -3,6 +3,12 @@ package handlers
 import (
 	"encoding/gob"
 	"fmt"
+	"html/template"
+	"log"
+	"net/http"
+	"path/filepath"
+	"time"
+
 	"github.com/aemzayn/bookings/cmd/internal/config"
 	"github.com/aemzayn/bookings/cmd/internal/models"
 	"github.com/aemzayn/bookings/cmd/internal/render"
@@ -10,11 +16,6 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/justinas/nosurf"
-	"html/template"
-	"log"
-	"net/http"
-	"path/filepath"
-	"time"
 )
 
 var app config.AppConfig
@@ -54,7 +55,7 @@ func getRoutes() http.Handler {
 	mux := chi.NewRouter()
 
 	mux.Use(middleware.Recoverer)
-	mux.Use(NoSurf)
+	// mux.Use(NoSurf)
 	mux.Use(SessionLoad)
 
 	mux.Get("/", Repo.Home)
