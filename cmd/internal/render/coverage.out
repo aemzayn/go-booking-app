@@ -1,0 +1,23 @@
+mode: set
+github.com/aemzayn/bookings/cmd/internal/render/render.go:22.40,24.2 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:26.84,32.2 5 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:35.105,38.18 2 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:45.2,46.9 2 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:50.2,57.16 5 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:61.2,61.12 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:38.18,41.3 1 0
+github.com/aemzayn/bookings/cmd/internal/render/render.go:41.8,43.3 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:46.9,48.3 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:57.16,60.3 2 0
+github.com/aemzayn/bookings/cmd/internal/render/render.go:65.67,70.16 3 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:74.2,74.29 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:96.2,96.21 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:70.16,72.3 1 0
+github.com/aemzayn/bookings/cmd/internal/render/render.go:74.29,77.17 3 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:81.3,82.17 2 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:86.3,86.23 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:93.3,93.21 1 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:77.17,79.4 1 0
+github.com/aemzayn/bookings/cmd/internal/render/render.go:82.17,84.4 1 0
+github.com/aemzayn/bookings/cmd/internal/render/render.go:86.23,88.18 2 1
+github.com/aemzayn/bookings/cmd/internal/render/render.go:88.18,90.5 1 0
