@@ -3,12 +3,13 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
+	"log"
+	"net/http"
+
 	"github.com/aemzayn/bookings/cmd/internal/config"
 	"github.com/aemzayn/bookings/cmd/internal/forms"
 	"github.com/aemzayn/bookings/cmd/internal/models"
 	"github.com/aemzayn/bookings/cmd/internal/render"
-	"log"
-	"net/http"
 )
 
 // Repo the repository used by the handlers
@@ -84,7 +85,7 @@ func (m *Repository) PostReservation(w http.ResponseWriter, r *http.Request) {
 	form := forms.New(r.PostForm)
 
 	form.Required("first_name", "last_name", "email")
-	form.MinLength("first_name", 3, r)
+	form.MinLength("first_name", 3)
 	form.IsEmail("email")
 
 	if !form.Valid() {
